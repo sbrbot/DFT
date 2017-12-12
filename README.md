@@ -7,15 +7,15 @@ This is a simple <b>Discrete Fourier Transform</b> library implemented in PHP.
 require 'DFT.php';
 
 // input discrete values
-$Y=[[2,3,-1,1];
+$Y=[2,3,-1,1];
 
 // instantiate and calculate factors
 $DFT=new DFT($Y);
 
-// get Fourier factors (Complex)
+// get Fourier (frquency domain) factors (Complex)
 $Factors=$DFT->getFactors();
 
-// get Magnitudes (float)
+// get Magnitudes (absolute values) (float)
 $Magnitudes=$DFT->getMagnitudes();
 </pre>
 
