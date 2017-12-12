@@ -1,0 +1,10 @@
+{
+  "name": "vendor/dft",
+  "description": "PHP library for calculating Discrete Fourier Transform",
+  "type": "library",
+  "require": {"php": ">=7.0.0"},
+  "autoload": {"psr-4": {"StjepanBrbot\\":"src/"}},
+  "autoload-dev": {"psr-4": {"StjepanBrbot\\":"tests/"}},
+  "authors": [{"name": "Stjepan Brbot", "email": "stjepan.brbot@gmail.com","role":"Developer"}],
+  "license": "MIT"
+}
